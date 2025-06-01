@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images (1).png">
+</head>
+<body style="background-image: url(images\ \(16\).jpeg);">
+    <div class="container">
+        <div class="header">
+            <img src="images (1).png" height="200px" width="200px" alt="">
+            <h1>Tech Skill Vocational Institute</h1>
+            
+          </div>
+        <h1>Test No 4</h1>
+        <div class="name-section">
+            <label for="studentName"><span style="color: rgb(19, 94, 9); font-weight: bolder;">Enter your name:</span></label>
+            <input type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1. Which of the following best describes the principle of "reliability and safety" in responsible AI?</p>
+            <div><input type="checkbox" id="artificialIntelligence" value="Artificial intelligence">
+            <label for="artificialIntelligence">AI systems should be tested to perform reliably in all situations, including edge cases</label></div>
+           <div>  <input type="checkbox" id="artificialIntelligence" value="Articial intelligence">
+            <label for="artificialIntelligence">AI should be designed to protect user identity</label></div>
+            
+           
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2. The principle of "privacy and security" in responsible AI ensures that?</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="Agriculture">AI should only work on public datasets</option>
+                <option value="Medical">AI algorithms must be kept confidential from users</option>
+                <option value="Weather forecast">Users personal data is protected and used with consent</option>
+                <option value="Both a,b & c">All AI systems should be password-protected</option>
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        <!-- Question 1 (Multiple Choice) -->
+<div class="question">
+    <p>3. Inclusiveness in AI aims to?</p>
+    <div><input type="radio" id="computerVision" name="workloadAI" value="Computer Vision">
+    <label for="computerVision">Give preference to English-language inputs only</label>
+    </div>
+   <div> <input type="radio" id="machineLearning" name="workloadAI" value="Machine Learning">
+    <label for="machineLearning">Reduce the model size to save memory</label>
+    </div>
+   <div> <input type="radio" id="regression" name="workloadAI" value="Regression">
+    <label for="regression">Ensure that AI systems work well for diverse users and do not exclude minority groups</label></div>
+</div>
+
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4. Which of the following is an example of AI transparency?</p>
+   <div> <input type="radio" id="label" name="train" value="label">
+    <label for="label">AI decisions are kept confidential from the user</label>
+    </div>
+   <div> <input type="radio" id="feature" name="train" value="feature">
+    <label for="feature">AI outputs are randomized to preserve uncertainty</label>
+    </div>
+   <div> <input type="radio" id="dataset" name="train" value="dataset">
+    <label for="dataset">Users are provided clear explanations of how an AI decision was made</label></div>
+</div>
+
+<div class="question">
+    <p>5. What is tokenization in Natural Language Processing (NLP)?
+</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Regression">Assigning scores to entire documents</option>
+        
+        <option value="Binary Classification">Splitting text into individual units such as words or subwords</option>
+        
+        <option value="Both a,b & c">Compressing data to save space</option>
+    </select>
+</div>
+<div class="question">
+    <p>6. Select the two techniques used in computer vision?</p>
+    <input type="checkbox" id="typeRegression" value="Regression">
+    <label for="typeRegression">semantic segmentation</label>
+    
+    <input type="checkbox" id="typesupervisedlearning" value="Supervised Learning">
+    <label for="typesupervisedlearning">Image Analysis</label>
+    
+    <input type="checkbox" id="typeunsupervisedlearning" value="Unsupervised Learning">
+    <label for="typeunsupervisedlearning">regression</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>7. In a machine learning model predicting student grades based on hours studied and attendance, which is the label?
+ </p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="feature">Hours studied</option>
+        
+        <option value="label">Final grade</option>
+         <option value="labl">Student name</option>
+    </select>
+</div>
+<div class="question">
+    <p>8. What would be the tokens after word-level tokenization of the sentence: “I love AI!”? </p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="feature">["I", "love", "AI!"]</option>
+         <option value="label">["I", "love", "AI"]</option>
+        <option value="lael">["I love AI!"]</option>
+              <option value="labl">["I", "lo", "ve", "AI"]</option>
+    </select>
+</div>
+<div class="question">
+    <p>9. Word to Vector is a technique that?  </p>
+    <input type="radio" id="artificiallife" name="AI" value="artificiallife">
+    <label for="artificiallife">Converts audio into words</label>
+    <input type="radio" id="huan" name="AI" value="huan">
+    <label for="huan">Represents words as dense vectors that capture semantic meaning</label>
+    <input type="radio" id="human" name="AI" value="human">
+    <label for="human">Removes punctuation from text</label>
+    
+    
+</div>
+<div class="question">
+    <p>10. <img src="face.png" height="100px"  width="200px"> which technique of computer vision used in above image??</p>
+    <input type="radio" id="stylar" name="images" value="stylar">
+    <label for="stylar">Object detection</label>
+     <input type="radio" id="Elevenlas" name="images" value="Elvenlas">
+    <label for="Elevenlas">Image Analysis</label>
+    <input type="radio" id="Elevenlabs" name="images" value="Elvenlabs">
+    <label for="Elevenlabs">Face Detection</label>
+    
+    
+</div>
+<div class="question">
+    <p>11. Why do computers need to convert words into numbers?</p>
+
+    <div>
+        <input type="radio" id="stylr" name="image" value="stylr"> 
+        <label for="stylr">Computers can only understand numbers</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elevenls" name="image" value="Elvenls">
+        <label for="Elevenls">Words are too heavy to store</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elevenlab" name="image" value="Elvenlab">
+        <label for="Elevenlab">Words are not found in programming</label>
+    </div>
+</div>
+
+
+<br><br>
+
+        
+        <button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
